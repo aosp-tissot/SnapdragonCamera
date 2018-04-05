@@ -31,12 +31,10 @@ LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
     qreader-core \
     qreader-zxing
 
-LOCAL_JAVA_LIBRARIES := org.lineageos.platform.internal
-
 LOCAL_PACKAGE_NAME := Snap
 LOCAL_PRIVILEGED_MODULE := true
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.snap
+LOCAL_AAPT_FLAGS += --rename-manifest-package mx.xperience.snapdragon
 
 #LOCAL_SDK_VERSION := current
 LOCAL_RENDERSCRIPT_TARGET_API := 23
