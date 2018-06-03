@@ -244,8 +244,6 @@ public class CameraUtil {
         sPixelDensity = metrics.density;
         sImageFileNamer = new ImageFileNamer(
                 context.getString(R.string.image_file_name_format));
-        sDeviceKeysPresent = context.getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
     }
 
     public static int dpToPixel(int dp) {
